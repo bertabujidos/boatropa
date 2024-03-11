@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header-buttons .btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-btn {
+    background-color: #ff7e47; /* Orange */
+    color: #fff;
+}
+
+.signup-btn {
+    background-color: #4db6ac; /* Teal */
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-image: url('background.jpg'); /* Adjust with your image */
+    background-size: cover;
+    color: #fff;
+}
+
+.hero .btn {
+    margin-top: 20px;
+}
