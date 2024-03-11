@@ -57,3 +57,49 @@ nav ul li a {
 .hero .btn {
     margin-top: 20px;
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        padding-top: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .header-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-buttons .btn {
+        margin: 10px 0; /* Adds space between buttons */
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 24px; /* Makes the font size smaller on phones */
+    }
+
+    .hero p {
+        font-size: 16px; /* Adjust paragraph font size for readability on smaller screens */
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero .btn {
+        width: 100%; /* Makes buttons full width */
+        margin: 10px 0;
+    }
+}
