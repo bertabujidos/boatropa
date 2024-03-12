@@ -56,6 +56,7 @@ header {
 
 .emphasize {
     font-weight: 400;
+    color: #1ABC9C;
 }
 .emphasize.boa{
     font-family: 'Schoolbell', cursive;
@@ -63,9 +64,6 @@ header {
 }
 .emphasize.tropa{
     font-family: 'Ubuntu', sans-serif;
-}
-.emphasize.tail-colour{
-    color: #1ABC9C;
 }
 
 footer {
