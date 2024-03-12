@@ -55,15 +55,17 @@ header {
 }
 
 .emphasize {
+    font-weight: 400;
+}
+.emphasize boa{
     font-family: 'Schoolbell', cursive;
     font-size: 60px;
-    font-weight: 400;
-    color: #1ABC9C;
 }
-.emphasize2 {
+.emphasize tropa{
     font-family: 'Ubuntu', sans-serif;
+}
+.empharize tail-colour{
     color: #1ABC9C;
-    font-weight: 400; /* Ensures no bolder weight is applied */
 }
 
 footer {
