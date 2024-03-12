@@ -49,9 +49,8 @@ header {
 }
 .emphasize2 {
     font-family: 'Ubuntu', sans-serif;
-     color: #1ABC9C;
+    color: #1ABC9C;
     font-weight: 400; /* Ensures no bolder weight is applied */
-    font-style: italic; /* Optional: Adds a different style instead of making it thinner */
 }
 
 footer {
