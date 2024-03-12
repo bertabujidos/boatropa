@@ -57,14 +57,14 @@ header {
 .emphasize {
     font-weight: 400;
 }
-.emphasize boa{
+.emphasize.boa{
     font-family: 'Schoolbell', cursive;
     font-size: 60px;
 }
-.emphasize tropa{
+.emphasize.tropa{
     font-family: 'Ubuntu', sans-serif;
 }
-.empharize tail-colour{
+.empharize.tail-colour{
     color: #1ABC9C;
 }
 
