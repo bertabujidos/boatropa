@@ -33,6 +33,12 @@ header {
     color: #FFF; /* Keeps text color white for contrast */
     /* Other existing styling properties */
 }
+.btn.signup-btn-large {
+    padding: 15px 30px; /* Increases padding for a larger button */
+    font-size: 20px; /* Larger font size for the button text */
+    border-radius: 8px; /* Optional: Adjusts the border radius for a slightly different shape */
+    /* Keep the background color and text color styles the same or adjust as desired */
+}
 
 .hero {
     text-align: center;
