@@ -29,7 +29,7 @@ header {
     font-family: 'Lato', sans-serif;
 }
 .signup-btn {
-    background-color: #FF6B81; /* Coral */
+    background-color: #ff6b6b; /* Coral */
     color: #FFF; /* Keeps text color white for contrast */
     /* Other existing styling properties */
 }
