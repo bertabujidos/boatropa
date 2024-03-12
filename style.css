@@ -15,7 +15,8 @@ header {
 }
 
 .logo {
-    height: 50px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    width: auto;
 }
 
 .btn {
@@ -42,9 +43,39 @@ footer {
     padding: 20px;
     background-color: #F2F2F2;
 }
+/* Existing styles... */
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about, #how-it-works, #activities, #contact {
+    background-color: #FAF9F9;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1ABC9C;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    color: #36454F;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.emphasize {
+    font-family: 'Schoolbell', cursive;
+    color: #FF7043; /* Accent color for emphasized words */
+}
+
+/* Responsive adjustments... */
 
 @media (max-width: 768px) {
-    .header, .hero, footer {
+    header, .hero, footer {
         padding: 10px;
     }
 
@@ -56,4 +87,5 @@ footer {
         padding: 8px 16px;
     }
 }
+
 
