@@ -94,6 +94,33 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
+#about-boatropa {
+    background-image: url('https://wallpapers.com/images/featured/lisbon-1odpujjjj3cw1esb.jpg');
+    background-size: cover; /* Ensures the background covers the entire section */
+    background-position: center; /* Centers the background image */
+    color: white; /* Adjust based on your image */
+    padding: 50px 20px;
+    position: relative;
+}
+
+#about-boatropa .container {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2, p {
+    margin: 0 0 20px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
 
 /* Responsive adjustments... */
 
