@@ -34,6 +34,15 @@ header {
     padding: 100px 20px;
 }
 
+.hero h1 {
+    font-size: 48px; /* Adjusts the heading size, make it bigger */
+    margin-bottom: 20px; /* Ensures some spacing between the heading and paragraph */
+}
+
+.hero p {
+    font-size: 24px; /* Adjusts the paragraph size for better readability */
+}
+
 .emphasize {
     font-family: 'Schoolbell', cursive;
     color: #1ABC9C;
@@ -41,6 +50,8 @@ header {
 .emphasize2 {
     font-family: 'Ubuntu', sans-serif;
      color: #1ABC9C;
+    font-weight: 400; /* Ensures no bolder weight is applied */
+    font-style: italic; /* Optional: Adds a different style instead of making it thinner */
 }
 
 footer {
