@@ -99,7 +99,7 @@ p {
     background-size: cover; /* Ensures the background covers the entire section */
     background-position: center; /* Centers the background image */
     color: white; /* Adjust based on your image */
-    padding: 50px 20px;
+    padding: 0;
     position: relative;
 }
 
