@@ -101,6 +101,7 @@ p {
     color: white; /* Adjust based on your image */
     padding: 0;
     position: relative;
+    min-height: 400px; 
 }
 
 #about-boatropa .container {
