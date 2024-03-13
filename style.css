@@ -54,15 +54,15 @@ header {
     font-size: 24px; /* Adjusts the paragraph size for better readability */
 }
 
-.emphasize {
+#emphasize {
     font-weight: 400;
     color: #1ABC9C;
 }
-.emphasize.boa{
+#emphasize.boa{
     font-family: 'Schoolbell', cursive;
     font-size: 60px;
 }
-.emphasize.tropa{
+#emphasize.tropa{
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -105,7 +105,7 @@ p {
 }
 
 #about-boatropa .container {
-    background-color: rgba(255, 255, 255, 0.6); /* Light overlay with reduced opacity */
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay with reduced opacity */
     padding: 50px 20px; /* Adjust padding as needed */
     position: absolute; /* Positioning the container absolutely to cover the parent */
     top: 0;
@@ -117,6 +117,10 @@ p {
     flex-direction: column;
     justify-content: center; /* Centers the content vertically */
     align-items: center; /* Centers the content horizontally */
+}
+.white {
+    font-weight: 400;
+    color: #FAF9F9;
 }
 
 h2, p {
